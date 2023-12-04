@@ -1,0 +1,273 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+a img{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+    color: #FFF;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 2rem 0 0 0;
+    color: #FFF;
+}
+
+.normal {
+    background-color: #a6a877;
+}
+
+.grass {
+    background-color: #77c850;
+}
+
+.fire {
+    background-color: #ee7f30;
+}
+
+.water {
+    background-color: #678fee;
+}
+
+.electric {
+    background-color: #f7cf2e;
+}
+
+.ice {
+    background-color: #98d5d7;
+}
+
+.ground {
+    background-color: #dfbf69;
+}
+
+.flying {
+    background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #a040a0;
+}
+
+.fighting {
+    background-color: #bf3029;
+}
+
+.psychic {
+    background-color: #f65687;
+}
+
+.dark {
+    background-color: #725847;
+}
+
+.rock {
+    background-color: #b8a137;
+}
+
+.bug {
+    background-color: #a8b720;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.steel {
+    background-color: #b9b7cf;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.fairy {
+    background-color: #f9aec7;
+}
+
+body{
+    margin: 0;
+    background-color: #f6f8fc;
+}
+
+.name{
+    text-transform: capitalize;
+    margin-top: 1rem;
+}
+
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 3rem;
+}
+
+.number {
+    margin-left: auto;
+    font-size: 1rem;
+    color: #000;
+    opacity: .3;
+}
+
+ol.types {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.types .type {
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: 0 .3rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    filter: brightness(.9);
+    text-align: center;
+}
+
+.detail {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+ol.pokemons {
+    margin: 0;
+}
+
+.back-button {
+    margin: 10px;
+    font-size: 40px; /* Ajuste o tamanho da seta conforme necessário */
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+.atributos {
+    background-color: white;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    min-height: 55vh;
+    overflow: hidden;
+    font-size: 1.1rem;
+}
+
+
+.key-value-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 2rem;
+}
+
+.key-value-item {
+    display: table-row;
+}
+
+.key, .value {
+    display: table-cell;
+    padding: 0.5rem;
+}
+
+.key {
+    text-align: left;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+.value {
+    text-align: left;
+    padding-left: 2rem;
+}
+
+@media screen and (min-width:  359px) {
+    .atributos {
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-height:  915px) {
+    .atributos {
+        min-height: 65vh;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width:  750px) {
+    .content{
+        margin: 0 3rem;
+    }
+    .atributos{
+        margin: 0;
+    }
+    .key-value-table{
+        margin-top: 5rem;
+    }
+
+    a img{
+        left: 5rem;
+    }
+
+    .presentation{
+        border-radius: 1.5rem;
+    }
+}
+
+
+@media screen and (min-width:  899px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 0 4rem;
+    }
+
+    .atributos {
+        font-size: 2rem;
+    }
+
+    .key-value-table {
+        margin-top: 5rem;
+    }
+
+    a img {
+        left: 7.5rem;
+    }
+}
+
+@media screen and (min-width:  1000px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 1rem;
+    }
+
+    .atributos {
+        font-size: 2rem;
+        min-height: 75vh;
+    }
+
+    .key-value-table {
+        margin-top: 5rem;
+    }
+
+    a img {
+        left: 2rem;
+    }
+}
+
